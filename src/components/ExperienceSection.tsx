@@ -10,7 +10,7 @@ const experiences = [
       "Currently working on developing a trustworthy Multimodal VQA framework for GI endoscopy that integrates concept-based reasoning to ensure clinical safety and explainability. Previously worked on building a robust, multi-scale deep learning pipeline designed to accurately classify highly imbalanced white blood cell images for the ISBI 2026 WBCBench Challenge where our team ranked 20 on the leaderboard.",
   },
   {
-    color: "bg-electric",
+    color: "bg-mint",
     role: "Summer Intern",
     org: "Siemens DISW",
     period: "Summer 2025",
@@ -29,7 +29,7 @@ const ExperienceSection = () => {
         {experiences.map((exp, i) => (
           <div
             key={i}
-            className={`${exp.color} brutal-border brutal-shadow p-6 rotate-[${i === 0 ? '-1' : '1'}deg] hover:rotate-0 transition-transform`}
+            className={`${exp.color} brutal-border brutal-shadow p-6 hover:rotate-0 transition-transform`}
             style={{ transform: `rotate(${i === 0 ? -1 : 1}deg)` }}
           >
             <div className="flex justify-between items-start mb-2">
@@ -41,7 +41,9 @@ const ExperienceSection = () => {
             <div className="flex items-center gap-2 mb-1">
               <p className="font-mono font-bold text-sm">{exp.org}</p>
               {exp.logo && (
-                <img src={exp.logo} alt={`${exp.org} logo`} className="h-6" />
+                <span className="brutal-border bg-card px-2 py-1 shrink-0">
+                  <img src={exp.logo} alt={`${exp.org} logo`} className="h-5" />
+                </span>
               )}
             </div>
             {exp.under && (

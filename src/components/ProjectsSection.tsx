@@ -2,15 +2,19 @@ const projects = [
   {
     title: "WBC Classification (Robust Ensemble Approach)",
     detail: "A robust, multi-scale deep learning pipeline for classifying highly imbalanced white blood cell images.",
-    sub: "📄 Under review at IEEE CVMI - 2026 | 🏆 Ranked 20th globally on Kaggle",
+    sub: (
+      <>
+        📄 <strong>Under review at IEEE CVMI - 2026</strong> | 🏆 Ranked 20th globally on Kaggle
+      </>
+    ),
     color: "bg-mint",
   },
   {
     title: "Geometric Deep Learning for Diabetic Retinopathy",
     detail:
-      "Using CLIP for high-dimensional space encoding and FAISS for clinical similarity search.",
+      "An interactive application for diabetic retinopathy (DR) grading using embedding-space retrieval instead of traditional supervised classification. Technologies Used: PyTorch, HuggingFace Transformers (CLIP), FAISS, UMAP, Streamlit, Plotly.",
     sub: null,
-    color: "bg-electric",
+    color: "bg-mint",
   },
   {
     title: "Multimodal Streamlit Dashboard",
