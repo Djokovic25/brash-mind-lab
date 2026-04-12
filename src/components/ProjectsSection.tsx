@@ -3,8 +3,8 @@ const projects = [
     title: "WBC Classification (Robust Ensemble Approach)",
     detail: "A robust, multi-scale deep learning pipeline for classifying highly imbalanced white blood cell images.",
     badges: [
-      { text: "📄 UNDER REVIEW: IEEE CVMI 2026", accent: "bg-neon-pink", rotate: "-2deg" },
-      { text: "🏆 KAGGLE GLOBAL RANK: 20", accent: "bg-mint", rotate: "3deg" },
+      { text: "📄 UNDER REVIEW: IEEE CVMI 2026", accent: "bg-neon-pink", rotate: "-1deg" },
+      { text: "🏆 KAGGLE GLOBAL RANK: 20", accent: "bg-mint", rotate: "1.5deg" },
     ],
     color: "bg-mint",
   },
@@ -40,7 +40,7 @@ const ProjectsSection = () => {
                   {p.badges.map((badge, j) => (
                     <span
                       key={j}
-                      className="relative bg-card brutal-border brutal-shadow font-mono font-bold text-[10px] uppercase tracking-wide px-3 py-2 inline-block"
+                      className="relative bg-card brutal-border brutal-shadow font-mono font-black text-xs uppercase tracking-wide px-3 py-2 inline-block"
                       style={{ transform: `rotate(${badge.rotate})` }}
                     >
                       <span
