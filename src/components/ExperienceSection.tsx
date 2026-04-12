@@ -47,7 +47,7 @@ const ExperienceSection = () => {
               )}
             </div>
             {exp.under && (
-              <p className="font-mono text-xs mb-3 opacity-80">Under: {exp.under}</p>
+              <p className="font-mono text-xs mb-3 opacity-80">Mentor: {exp.under}</p>
             )}
             <p className="font-grotesk text-sm leading-relaxed">{exp.description}</p>
           </div>
