@@ -6,7 +6,7 @@ const HeroSection = () => {
         <h1 className="font-serif font-black text-7xl sm:text-9xl leading-[0.9] tracking-tight">
           ISHITA
         </h1>
-        <h1 className="font-serif font-black text-7xl sm:text-9xl leading-[0.9] tracking-tight text-outline">
+        <h1 className="font-serif font-black text-7xl sm:text-9xl leading-[0.9] tracking-tight text-mint">
           AMBEKAR
         </h1>
       </div>
