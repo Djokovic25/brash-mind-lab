@@ -5,6 +5,7 @@ const experiences = [
     org: "Cummins College of Engineering",
     period: "Dec 2025 – Present",
     under: "Dr. Madhuri Tasgaonkar",
+    logo: null,
     description:
       "Currently working on developing a trustworthy Multimodal VQA framework for GI endoscopy that integrates concept-based reasoning to ensure clinical safety and explainability. Previously worked on building a robust, multi-scale deep learning pipeline designed to accurately classify highly imbalanced white blood cell images for the ISBI 2026 WBCBench Challenge where our team ranked 20 on the leaderboard.",
   },
@@ -14,6 +15,7 @@ const experiences = [
     org: "Siemens DISW",
     period: "Summer 2025",
     under: null,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/200px-Siemens-logo.svg.png",
     description:
       "Focused on 3D Point Cloud Segmentation and volumetric data visualization. Developed a deep learning-based pipeline using Open3D, TensorFlow, and PyTorch to segment point cloud data into 3D figures compatible with Siemens NX.",
   },
@@ -36,7 +38,12 @@ const ExperienceSection = () => {
                 {exp.period}
               </span>
             </div>
-            <p className="font-mono font-bold text-sm mb-1">{exp.org}</p>
+            <div className="flex items-center gap-2 mb-1">
+              <p className="font-mono font-bold text-sm">{exp.org}</p>
+              {exp.logo && (
+                <img src={exp.logo} alt={`${exp.org} logo`} className="h-6" />
+              )}
+            </div>
             {exp.under && (
               <p className="font-mono text-xs mb-3 opacity-80">Under: {exp.under}</p>
             )}
