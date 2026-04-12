@@ -26,7 +26,7 @@ const boxes = [
 const ArsenalSection = () => {
   return (
     <section className="py-16 px-6 max-w-5xl mx-auto">
-      <h2 className="font-serif font-black text-4xl sm:text-5xl mb-8">TECHNICAL ARSENAL</h2>
+      <h2 className="font-serif font-black text-4xl sm:text-5xl mb-8"><h2 className="font-serif font-black text-4xl sm:text-5xl mb-8">TECHNICAL SKILLS</h2></h2>
       <div className="grid sm:grid-cols-3 gap-6">
         {boxes.map((box, i) => (
           <div key={i} className={`${box.color} brutal-border brutal-shadow-sm p-6`}>
