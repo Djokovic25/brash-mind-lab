@@ -7,7 +7,9 @@ const Navbar = () => {
         <a href="#projects" className="font-mono text-sm font-bold hover:underline hidden sm:inline">PROJECTS</a>
         <a href="#contact" className="font-mono text-sm font-bold hover:underline hidden sm:inline">CONTACT</a>
         <a
-          href="#"
+          href="https://drive.google.com/file/d/1112NFL9Q0yWLPZH4cFFm_BNPJYhmc72U/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-neon-yellow brutal-border brutal-shadow-sm px-4 py-2 font-mono font-bold text-sm uppercase hover:-translate-y-0.5 transition-transform"
         >
           DOWNLOAD CV
