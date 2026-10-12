@@ -116,9 +116,14 @@ const Index = () => (
         <a href="#projects">PROJECTS</a>
         <a href="#skills">SKILLS</a>
       </nav>
-      <Button asChild className="nav-contact">
-        <a href="mailto:ishita.ambekar2023@gmail.com">LET’S TALK <ArrowUpRight aria-hidden="true" /></a>
-      </Button>
+      <div className="header-actions">
+        <Button asChild className="nav-cv">
+          <a href="https://drive.google.com/file/d/1112NFL9Q0yWLPZH4cFFm_BNPJYhmc72U/view?usp=sharing" target="_blank" rel="noreferrer">DOWNLOAD CV <ArrowUpRight aria-hidden="true" /></a>
+        </Button>
+        <Button asChild className="nav-contact">
+          <a href="mailto:ishita.ambekar2023@gmail.com">LET’S TALK <ArrowUpRight aria-hidden="true" /></a>
+        </Button>
+      </div>
     </header>
 
     <section className="hero section-wrap" id="home" aria-labelledby="hero-title">
