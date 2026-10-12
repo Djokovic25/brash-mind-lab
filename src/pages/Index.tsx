@@ -1,5 +1,6 @@
 import { ArrowDown, ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import "./portfolio.css";
 
 const research = [
   {
