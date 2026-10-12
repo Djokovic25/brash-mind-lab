@@ -161,7 +161,7 @@
 .portfolio .section-heading { margin-bottom: 32px; }
 .portfolio .section-heading h2,
 .portfolio .recognition-inner h2 { margin: 12px 0 0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: clamp(32px, 5vw, 54px); line-height: 1.02; font-weight: 950; }
-.portfolio .section-heading h2 span { color: var(--portfolio-blue); }
+.portfolio .section-heading h2 span { color: var(--portfolio-mint); }
 .portfolio .section-intro { color: var(--portfolio-subtle); font-size: 13px; line-height: 1.6; }
 .portfolio .section-heading-inline { display: flex; align-items: end; justify-content: space-between; gap: 24px; }
 .portfolio .section-heading-inline .section-intro { max-width: 280px; margin: 0 0 5px; }

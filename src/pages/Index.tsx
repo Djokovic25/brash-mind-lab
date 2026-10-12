@@ -143,7 +143,7 @@ const Index = () => (
         <span className="art-plus art-plus-one">+</span>
         <span className="art-plus art-plus-two">+</span>
       </div>
-      <div className="hero-bottomline"><span>BASED IN INDIA</span><span>CURIOUS BY PRACTICE</span><span>01 — 06</span></div>
+      <div className="hero-bottomline"><span>COMPUTER ENGINEERING</span><span>CURIOUS BY PRACTICE</span><span>01 — 06</span></div>
     </section>
 
     <section className="content-section section-wrap" id="research" aria-labelledby="research-title">
