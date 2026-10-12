@@ -1,0 +1,4 @@
+- [x] Replace the blank page with the existing neo-brutalist portfolio presentation.
+- [x] Refresh identity, current research, and experience content from the provided brief.
+- [x] Update papers, project descriptions, awards, and grouped technical skills.
+- [ ] Verify desktop and mobile layouts, content claims, and build output.
