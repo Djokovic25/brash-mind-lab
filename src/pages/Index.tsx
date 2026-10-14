@@ -130,7 +130,7 @@ const Index = () => (
       </nav>
       <div className="header-actions">
         <Button asChild className="nav-cv">
-          <a href="https://drive.google.com/file/d/1112NFL9Q0yWLPZH4cFFm_BNPJYhmc72U/view?usp=sharing" target="_blank" rel="noreferrer">DOWNLOAD CV <ArrowUpRight aria-hidden="true" /></a>
+          <a href="https://drive.google.com/file/d/1v6CYZXCHsV8pvF9bWR7Z2n3LU4A9SUlY/view?usp=sharing" target="_blank" rel="noreferrer">DOWNLOAD CV <ArrowUpRight aria-hidden="true" /></a>
         </Button>
         <Button asChild className="nav-contact">
           <a href="mailto:ishita.ambekar2023@gmail.com">LET’S TALK <ArrowUpRight aria-hidden="true" /></a>
