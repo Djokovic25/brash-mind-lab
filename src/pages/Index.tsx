@@ -5,6 +5,9 @@ import wellsFargoLogo from "@/assets/wells-fargo-logo.png.asset.json";
 import siemensLogo from "@/assets/siemens-logo.svg.asset.json";
 import "./portfolio.css";
 
+const logoAssetUrl = (url: string) =>
+  new URL(url, import.meta.env.DEV ? "https://ishitaambekar.lovable.app" : window.location.origin).href;
+
 const research = [
   {
     number: "01",
@@ -28,7 +31,7 @@ const experience = [
     date: "AUG 2026 — PRESENT",
     role: "Research Intern",
     organization: "MVAIT Lab, NTU Singapore",
-    logo: ntuLogo.url,
+    logo: logoAssetUrl(ntuLogo.url),
     logoAlt: "NTU Singapore logo",
     description:
       "Conducting research on GI endoscopy and neoplasia detection, with a focus on evaluating model performance and investigating challenges in clinical image classification.",
@@ -38,7 +41,7 @@ const experience = [
     date: "SUMMER 2026",
     role: "Technology Intern",
     organization: "Wells Fargo",
-    logo: wellsFargoLogo.url,
+    logo: logoAssetUrl(wellsFargoLogo.url),
     logoAlt: "Wells Fargo logo",
     description:
       "Worked on technology initiatives within Home Lending Servicing, contributing to an AI proof of concept and exploring LLM-based developer tools and AI-assisted software development.",
@@ -48,7 +51,7 @@ const experience = [
     date: "SUMMER 2025",
     role: "Summer Intern",
     organization: "Siemens Digital Industries Software",
-    logo: siemensLogo.url,
+    logo: logoAssetUrl(siemensLogo.url),
     logoAlt: "Siemens logo",
     description:
       "Developed an interactive pipeline for 3D point-cloud segmentation and visualization using deep learning, Open3D, and related tools, with a workflow for viewing segmented geometry in Siemens NX.",
