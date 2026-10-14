@@ -2,3 +2,4 @@
 - [x] Refresh identity, current research, and experience content from the provided brief.
 - [x] Update papers, project descriptions, awards, and grouped technical skills.
 - [x] Verify desktop and mobile layouts, content claims, and build output.
+- [ ] Add NTU Singapore, Wells Fargo, and Siemens DISW logos to their experience cards; verify they render at desktop and mobile sizes.
