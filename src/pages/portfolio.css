@@ -195,8 +195,9 @@
 .portfolio .experience-card h3 { font-size: 20px; }
 .portfolio .organization-row { display: flex; justify-content: space-between; align-items: start; gap: 10px; margin-top: 4px; }
 .portfolio .organization-row > p { margin: 0; font-size: 12px; font-weight: 700; line-height: 1.5; }
-.portfolio .siemens-label { flex: 0 0 auto; border: 2px solid var(--portfolio-ink); background: var(--portfolio-paper); padding: 5px 7px; font-size: 10px; line-height: 1.2; }
-.portfolio .siemens-label small { font-size: 6px; }
+.portfolio .organization-logo { flex: 0 0 auto; width: 104px; height: 38px; display: grid; place-items: center; border: 2px solid var(--portfolio-ink); background: var(--portfolio-paper); padding: 4px 6px; }
+.portfolio .organization-logo img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; }
+.portfolio .organization-logo-square { width: 42px; height: 42px; padding: 3px; }
 .portfolio .experience-description { margin: 18px 0 0; font-size: 12px; line-height: 1.7; }
 
 .portfolio .project-section { padding-bottom: 100px; }
