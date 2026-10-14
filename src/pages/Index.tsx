@@ -1,5 +1,8 @@
 import { ArrowDown, ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ntuLogo from "@/assets/ntu-logo.png.asset.json";
+import wellsFargoLogo from "@/assets/wells-fargo-logo.png.asset.json";
+import siemensLogo from "@/assets/siemens-logo.svg.asset.json";
 import "./portfolio.css";
 
 const research = [
@@ -25,6 +28,8 @@ const experience = [
     date: "AUG 2026 — PRESENT",
     role: "Research Intern",
     organization: "MVAIT Lab, NTU Singapore",
+    logo: ntuLogo.url,
+    logoAlt: "NTU Singapore logo",
     description:
       "Conducting research on GI endoscopy and neoplasia detection, with a focus on evaluating model performance and investigating challenges in clinical image classification.",
     tone: "pink",
@@ -33,6 +38,8 @@ const experience = [
     date: "SUMMER 2026",
     role: "Technology Intern",
     organization: "Wells Fargo",
+    logo: wellsFargoLogo.url,
+    logoAlt: "Wells Fargo logo",
     description:
       "Worked on technology initiatives within Home Lending Servicing, contributing to an AI proof of concept and exploring LLM-based developer tools and AI-assisted software development.",
     tone: "mint",
@@ -41,6 +48,8 @@ const experience = [
     date: "SUMMER 2025",
     role: "Summer Intern",
     organization: "Siemens Digital Industries Software",
+    logo: siemensLogo.url,
+    logoAlt: "Siemens logo",
     description:
       "Developed an interactive pipeline for 3D point-cloud segmentation and visualization using deep learning, Open3D, and related tools, with a workflow for viewing segmented geometry in Siemens NX.",
     tone: "yellow",
@@ -181,7 +190,9 @@ const Index = () => (
             <h3>{item.role}</h3>
             <div className="organization-row">
               <p>{item.organization}</p>
-              {item.organization.startsWith("Siemens") && <span className="siemens-label">SIEMENS<br /><small>DIGITAL INDUSTRIES SOFTWARE</small></span>}
+              <span className={`organization-logo ${item.organization.startsWith("Wells") ? "organization-logo-square" : ""}`}>
+                <img src={item.logo} alt={item.logoAlt} />
+              </span>
             </div>
             <p className="experience-description">{item.description}</p>
           </article>
